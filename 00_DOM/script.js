@@ -48,3 +48,11 @@ const input = document.getElementById("input");
 input.addEventListener("input",function(){
     preview.textContent = input.value;
 })
+
+// change heading  color
+
+const color = document.getElementById("color");
+
+color.addEventListener("click",function(){
+    title.classList.add("change")
+})

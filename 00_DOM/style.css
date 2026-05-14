@@ -6,10 +6,19 @@ button{
     padding: 10px 20px;
     cursor:pointer;
 }
+
 #theambtn{
     margin: 10px;
+} 
+#colour{
+    margin: 10px;
 }
+
 .dark{
     background-color:black;
     color:white;
+}
+
+.change{
+    color:red;
 }
